@@ -12,9 +12,12 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class HelloController {
-    public Button top;
-    public Button bot;
-    public ListView<String> listView;
+    @FXML
+    private Button top;
+    @FXML
+    private Button bot;
+    @FXML
+    private ListView<String> listView;
 
 
     @FXML
